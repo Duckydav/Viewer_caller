@@ -6,6 +6,10 @@
 
 When working on complex setups in Nuke, it can be difficult to find Viewer nodes or quickly check their inputs. This script solves the issue by automatically bringing all Viewers to your current position in the Node Graph.
 
+## Demo
+
+To use the **Viewer Caller** script, simply trigger the function with the shortcut **Alt + W**.
+
 ![viewer_caller_demo](https://github.com/user-attachments/assets/2a79e727-504e-4abc-87af-05405972a5ff)
 
 ## Features
