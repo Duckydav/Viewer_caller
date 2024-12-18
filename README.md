@@ -1,13 +1,17 @@
-# Viewer Caller - Python Script for Nuke
+# Viewer Caller
 
-**Viewer Caller** is a Python script designed to automate the positioning of Viewer nodes in Nuke's Node Graph. It simplifies the organization of Viewers by sorting them, aligning them horizontally, and positioning them slightly below the visible center of the current view.
+**Viewer Caller** is a Python script designed to locate and organize Viewer nodes in Nuke's Node Graph.
 
-## ***Features***
+## Problem
 
-- **Sorting Viewers**: Organizes Viewer nodes by name in ascending order (e.g., `Viewer1`, `Viewer2`, etc.).
-- **Horizontal Alignment**: Viewers are aligned side by side with configurable uniform spacing.
-- **Vertical Positioning**: Viewers are placed at the bottom of the visible view, slightly below the current center.
-- **Zoom Adaptation**: Viewer positions are dynamically adjusted based on the active zoom level in the Node Graph.
+When working on complex setups in Nuke, it can be difficult to find Viewer nodes or quickly check their inputs. This script solves the issue by automatically bringing all Viewers to your current position in the Node Graph.
+
+## Features
+
+- **Viewer Sorting**: Sorts Viewers by name in ascending order for clear organization.
+- **Horizontal Alignment**: Arranges Viewers side by side with uniform spacing.
+- **Vertical Positioning**: Places Viewers slightly below the visible center of the current view for easier accessibility.
+- **Zoom Adaptation**: Dynamically adjusts Viewer positions based on the current zoom level in the Node Graph.
 
 ## ***Installation***
 
