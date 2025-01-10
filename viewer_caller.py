@@ -1,3 +1,9 @@
+# ----------------------------------------------------------------------------------------------------------
+# viewer_caller v1.0
+# Author: David Francois
+# Copyright (c) 2024, David Francois
+# ----------------------------------------------------------------------------------------------------------
+
 import nuke
 
 def run():
@@ -23,7 +29,7 @@ def run():
     # Calculate the starting point to position the Viewers at the bottom of the screen
     # The zoom level affects the "visible" position, so adjust accordingly
     start_x = center_x - (len(viewer_nodes) - 1) * spacing // 2
-    adjusted_y = center_y + (500 / zoom_level)  # Place the Viewers lower (adjust "500" based on the desired height)
+    adjusted_y = center_y + (300 / zoom_level)  # Place the Viewers lower (adjust "500" based on the desired height)
 
     # Position each Viewer
     for i, viewer in enumerate(viewer_nodes):
